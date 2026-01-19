@@ -22,7 +22,6 @@ body {
 
 }
 
-
 /* navbar Section Start */
 
 .navbar {
@@ -313,7 +312,7 @@ hr {
 
 /*host-section-styling  */
 
-.host-title>h2{
+.host-title>h2 {
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
@@ -321,7 +320,7 @@ hr {
     margin: 120px auto 40px;
 }
 
-.host-container{
+.host-container {
     margin: 30px 100px;
     height: 280px;
     background-color: #250e44;
@@ -331,43 +330,98 @@ hr {
     padding: 20px;
 }
 
-.host-images{
+.host-images {
     margin: 40px 40px;
 }
 
 
-.host-details{
+.host-details {
     grid-column: span2;
     margin: 48px 24px;
 }
 
-.host-details>h3{
+.host-details>h3 {
     font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
 }
 
-.host-details>p{
+.host-details>p {
     font-size: 1rem;
     font-weight: 400;
     color: #a89fb4;
     margin: 16px auto;
 }
 
-.social-icon>a{
+.social-icon>a {
     margin-right: 10px;
     border: 1px solid #634f7ea3;
     padding: 10px 10px;
     border-radius: 100px;
 }
 
+/* footer section Styling */
+
+
+.Logo-name {
+    background-image: url("./assets/footer-bg.png");
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.Logo-name>h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+    position: absolute;
+    right: 34%;
+    margin-top: 60px;
+    width: 401px;
+    height: 70px;
+
+}
+
+.logo-color {
+    background: linear-gradient(30deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-icon {
+    align-items: center;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 32%;
+    margin-right: 0px;
+
+}
+
+.footer-icon img {
+    margin-right: 10px;
+}
+
+.footer-icon>span {
+    font-size: 1rem;
+    color: #a89fb4;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.Logo-name>p {
+    align-items: center;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 35%;
+    margin-right: 0px;
+    color: #a89eb4;
+}
 
 
 
-
-
-
-
+/* media query mobile responsive */
 
 @media screen and (max-width:576px) {
     .btn-primary {
@@ -498,7 +552,6 @@ hr {
     .techwave-box {
         padding: 15px;
         width: 350px;
-        /* background-color: #2a0f4d; */
         border-radius: 20px;
     }
 
@@ -513,6 +566,7 @@ hr {
         margin: 30px 50px;
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
+
     }
 
     .video-section-title>h2 {
@@ -520,5 +574,78 @@ hr {
         margin-top: 40px;
         margin-bottom: 24px;
     }
+
+    /* Meet the Host Section Responsive */
+
+    .host-container {
+        margin: 20px 50px;
+        height: 550px;
+        grid-template-columns: repeat(1, 1fr);
+
+        text-align: center;
+    }
+
+    .host-details {
+        grid-column: span 1;
+        margin: 0px auto;
+    }
+
+    .host-title>h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #FFFFFF;
+
+    }
+
+    .host-title>h2 {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin: 60px auto;
+    }
+
+
+    /* footer section Responsive */
+    .Logo-name {
+        background-size: contain;
+        margin-top: 0px;
+    }
+
+    .Logo-name>h2 {
+        font-size: 2rem;
+        right: 25%;
+        margin-top: 100px;
+        width: 200px;
+        height: 0px;
+
+    }
+
+    .footer-icon {
+        margin-top: 35%;
+        margin-left: 32%;
+        margin-right: 10px;
+
+    }
+
+    .footer-icon>span {
+        font-size: 0.5rem;
+        color: #a89fb4;
+        font-weight: 300;
+        margin-right: 65px;
+    }
+
+    .footer-icon img {
+        weight: 10px;
+        height: 10px;
+    }
+
+    .Logo-name>p {
+        font-size: 0.5rem;
+        margin-top: 46%;
+        margin-left: 32%;
+    }
+
 
 }
