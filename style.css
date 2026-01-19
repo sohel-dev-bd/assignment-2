@@ -311,9 +311,55 @@ hr {
 }
 
 
+/*host-section-styling  */
+
+.host-title>h2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 120px auto 40px;
+}
+
+.host-container{
+    margin: 30px 100px;
+    height: 280px;
+    background-color: #250e44;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+.host-images{
+    margin: 40px 40px;
+}
 
 
+.host-details{
+    grid-column: span2;
+    margin: 48px 24px;
+}
 
+.host-details>h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.host-details>p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a89fb4;
+    margin: 16px auto;
+}
+
+.social-icon>a{
+    margin-right: 10px;
+    border: 1px solid #634f7ea3;
+    padding: 10px 10px;
+    border-radius: 100px;
+}
 
 
 
